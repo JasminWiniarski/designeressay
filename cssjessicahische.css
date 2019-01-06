@@ -16,10 +16,10 @@ body {
    
     background: url(background1.png) repeat-x fixed -80% 0;/*in case multiple backgrounds not supported*/
     background:
-        url(background4.png) repeat-x fixed -100% 0,
-        url(background3.png) repeat-x fixed 40% 0,
-        url(background2.png) repeat-x fixed -20% 0,
-        url(background1.png) repeat-x fixed 100% 0;
+        url(images/background4.png) repeat-x fixed -100% 0,
+        url(images/background3.png) repeat-x fixed 40% 0,
+        url(images/background2.png) repeat-x fixed -20% 0,
+        url(images/background1.png) repeat-x fixed 100% 0;
         
         
      /*in case background image not working*/   
@@ -57,6 +57,11 @@ blockquote{
 }
 span{
     color: #b50d28;
+}
+.dark {
+    background: #333;
+    color: #f9f9f9;
+    padding: 1em;
 }
 
 
